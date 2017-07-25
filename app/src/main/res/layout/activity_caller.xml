@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:textSize="32sp"
+        android:textColor="#ff0000"
+        android:textStyle="bold"
+        android:text="caller activity" />
+
+    <Button
+        android:id="@+id/btnCallee"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="callee Activity" />
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:text="data"
+        android:layout_below="@+id/btnCallee"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
